@@ -1,0 +1,25 @@
+<style>
+    body {
+        background: #eeeeee;
+    }
+
+    .loader {
+        border-radius: 50%;
+        width: 420px;
+        height: 420px;
+        margin: 70px auto 0px auto;
+        background: #fcd5bb;
+        -webkit-animation: animate 3s ease infinite;
+    }
+
+    .loader:after {
+        content: "";
+        display: inline-block;
+        width: 420px;
+        height: 420px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 0px 4px #fff, 0px 0px 20px #333;
+    }
+</style>
+
+<div class="loader"></div>
